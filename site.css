@@ -33,6 +33,45 @@ a:hover { text-decoration-thickness: 2px; }
   padding: 0 var(--space-lg);
 }
 
+.ecosystem-nav {
+  border-bottom: var(--border-thin);
+  padding: var(--space-sm) 0;
+}
+.ecosystem-nav .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+.ecosystem-nav a {
+  font-family: var(--font-mono);
+  font-size: var(--text-small);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-wide);
+  text-decoration: none;
+}
+.ecosystem-nav a:hover { text-decoration: underline; }
+.ecosystem-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.breadcrumb-nav { padding: var(--space-sm) 0 0; }
+.breadcrumb-nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  font-family: var(--font-mono);
+  font-size: var(--text-small);
+}
+.breadcrumb-nav li:not(:last-child)::after {
+  content: "/";
+  margin-left: var(--space-xs);
+  color: var(--color-muted);
+}
+
 header.header {
   border-bottom: var(--border-thick);
   padding: var(--space-xl) 0;

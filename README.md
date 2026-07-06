@@ -59,3 +59,11 @@ Echo teaches AI as a set of visible rules and choices:
 ## Status
 
 GitHub Pages starter package.
+
+## Related SSL Projects
+
+- [Small Systems Lab](https://ukadike.github.io/small-systems-lab/) — ecosystem hub
+- [Omoluabi](https://ukadike.github.io/omoluabi/) — editorial intelligence
+- [Earth Sensors Lab](https://ukadike.github.io/earth-sensors-lab/) — accessible STEAM research
+- [Umada](https://ukadike.github.io/umada/) — speculative worldbuilding
+- [Accessible by Design](https://ukadike.github.io/accessible-by-design-prototyping/) — accessibility audit lab
