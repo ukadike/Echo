@@ -46,7 +46,7 @@ README.
 ## Broken links
 
 None found.
-- Hub cross-link (`https://ukadike.github.io/small-systems-lab/`, footer) uses lowercase
+- Hub cross-link (`https://ukadike.github.io/Small-Systems-Lab/`, footer) uses lowercase
   `small-systems-lab`, matching the earlier fix in commit `204b51e` ("Fix hub link casing to
   lowercase small-systems-lab"). Still correct.
 - `SSL-METHOD.md` relative link resolves to the file at repo root — exists.
