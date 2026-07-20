@@ -39,7 +39,7 @@ structure beyond what's listed here.
 
 ## External links referenced by the site
 
-- `https://ukadike.github.io/small-systems-lab/` — Small Systems Lab hub (footer).
+- `https://ukadike.github.io/Small-Systems-Lab/` — Small Systems Lab hub (footer).
 - `https://github.com/ukadike/Echo/issues` — contribution/issue intake (Get involved section).
 - `https://github.com/ukadike` — author GitHub profile (footer).
 

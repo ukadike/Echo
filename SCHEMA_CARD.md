@@ -67,7 +67,7 @@ Logic, Accessibility as System Architecture, and Public Knowledge and Returnabil
 
 ## Related repos
 
-- **Small Systems Lab** (hub) — `https://ukadike.github.io/small-systems-lab/`, linked from
+- **Small Systems Lab** (hub) — `https://ukadike.github.io/Small-Systems-Lab/`, linked from
   the Echo footer. Echo is one branch within this ecosystem.
 - Earth Sensors Lab and Omoluabi — share the same locked SSL visual system (per project
   context); not directly linked from this repo's content.
