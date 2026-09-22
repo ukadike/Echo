@@ -14,8 +14,9 @@ Sitemap of the ECHO repository, Small Systems Lab's AI-governance branch.
 
 ## Research documents
 
-- `docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md` — ACI framework v0.1. Defines **“Access is a condition of correctness”** as a model/system governance thesis; introduces accessibility as a threshold/gate across training, evaluation, agents, deployment, and redress.
-- `docs/EVALUATION_MATRIX.md` — AI Accessibility Evaluation Matrix v0.1. Defines eight evaluation dimensions, a 0–4 scoring model, non-compensable gates, test cases, and evidence-record requirements.
+- docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md — ACI framework v0.2. Defines **“Access is a condition of correctness”** as a model/system governance thesis; introduces accessibility as a threshold/gate across training, evaluation, agents, deployment, and redress.
+- docs/EVALUATION_MATRIX.md — AI Accessibility Evaluation Matrix v0.2. Defines eight human-access dimensions, a 0–4 scoring model, non-compensable gates, Governance Accessibility system gates, test cases, and evidence-record requirements.
+- docs/GOVERNANCE_ACCESSIBILITY.md — Governance Accessibility v0.1. Extends ECHO to advanced agents and potential AGI with external control-plane requirements for inspectability, traceability, interruption, authority boundaries, durable audit, review, and recovery.
 - `docs/REPO_AUDIT.md` — earlier repository/accessibility audit retained for provenance.
 
 ## Evaluation vector
@@ -43,7 +44,7 @@ A = (P, O, U, R, C, L, M, G)
 
 ## Current research status
 
-Active core branch. ACI framework v0.1 and AI Accessibility Evaluation Matrix v0.1 published September 22, 2026.
+Active core branch. ACI v0.2, AI Accessibility Evaluation Matrix v0.2, and Governance Accessibility v0.1 published September 22, 2026.
 
 ## Next implementation targets
 
