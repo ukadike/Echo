@@ -4,9 +4,11 @@
 
 ECHO is a core research branch of **Small Systems Lab**.
 
-Its central doctrine is:
+Its central doctrines are:
 
 > **Access is a condition of correctness.**
+
+> **Oversight that an intelligent system can make inaccessible is not oversight.**
 
 ECHO begins from a simple observation: human ability is variable and contextual. Vision, hearing, mobility, language, literacy, attention, memory, cognition, environment, technology, bandwidth, fatigue, age, injury, and circumstance all change how a person can receive information and act on it. Accessibility is therefore not a specialist feature for a minority of users. It is a general condition of human-computer interaction.
 
@@ -98,6 +100,18 @@ Before an AI interaction is considered successful, ask:
 
 A high-performing system that fails a required access gate does not pass ECHO's definition of quality.
 
+## Governance Accessibility for advanced agents and AGI
+
+ECHO extends ACI beyond human interaction into the governance architecture of advanced autonomous agents and potential AGI systems.
+
+Human accessibility asks whether people can perceive, understand, operate, challenge, and act through an AI system. **Governance Accessibility** asks whether authorized oversight can inspect, trace, interrupt, constrain, review, and recover the intelligent system itself.
+
+For high-consequence autonomy, the agent should operate **inside an independent governance control plane**. Policy, authorization, permissions, authoritative audit, shutdown/isolation, and recovery should not depend solely on the cooperation of the agent they govern.
+
+An agent may request a safe shutdown, but it should not be the sole authority over its external shutdown mechanism. It should not be able to unilaterally erase authoritative logs, increase its own permissions, disable required oversight, or create an undisclosed privileged path.
+
+[Read Governance Accessibility for Advanced Agents and AGI](docs/GOVERNANCE_ACCESSIBILITY.md)
+
 ## Research program
 
 ECHO will develop:
@@ -111,7 +125,10 @@ ECHO will develop:
 - public-interest case studies;
 - curriculum for AI literacy and governance;
 - schema cards that make evaluation assumptions visible;
-- prototype code and test harnesses.
+- prototype code and test harnesses;
+- external-control-plane patterns for advanced agents;
+- audit-persistence and privilege-boundary tests;
+- governance-accessibility gates for advanced autonomy and potential AGI.
 
 ## Relationship to existing standards
 
@@ -129,6 +146,7 @@ ECHO's research question is narrower and more structural:
 
 - [Accessibility-Constrained Intelligence](docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md)
 - [AI Accessibility Evaluation Matrix](docs/EVALUATION_MATRIX.md)
+- [Governance Accessibility for Advanced Agents and AGI](docs/GOVERNANCE_ACCESSIBILITY.md)
 - [Schema Card](SCHEMA_CARD.md)
 - [Small Systems Lab Method](SSL-METHOD.md)
 - [Repository Index](INDEX.md)
