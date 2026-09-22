@@ -4,7 +4,8 @@
 **ABC report date:** September 18, 2026  
 **Primary governance artifact:** AI Evaluator Forum, “Minimum Conditions for Embedding Evaluators”  
 **ECHO test date:** September 22, 2026  
-**Framework:** Accessibility-Constrained Intelligence (ACI) + Governance Accessibility
+**Framework:** Accessibility-Constrained Intelligence (ACI) + Governance Accessibility  
+**Canonical status:** Locked into ECHO research record on September 22, 2026
 
 ## Why this is an ECHO test
 
