@@ -1,7 +1,8 @@
 # ECHO Case Study 001 — Expert Record and Public Writings
 
 **Companion to:** [Case Study 001 — Embedded Independent Evaluators](CASE_STUDY_001_EMBEDDED_EVALUATORS.md)  
-**Updated:** September 22, 2026
+**Updated:** September 22, 2026  
+**Canonical status:** Locked into ECHO research record
 
 ## Editorial note
 
