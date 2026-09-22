@@ -16,6 +16,8 @@ Core AI governance, accessibility, public learning, and human-agency research br
 
 > **Access is a condition of correctness.**
 
+> **Oversight that an intelligent system can make inaccessible is not oversight.**
+
 ## Purpose
 
 ECHO studies what changes when accessibility is treated as a governing condition of AI quality rather than an accommodation added after model development.
@@ -52,6 +54,16 @@ subject to  A(x) >= τ
 
 Important dimensions can be designated as non-compensable deployment gates.
 
+## Governance Accessibility
+
+For advanced autonomous agents and potential AGI systems, ECHO adds a system-level governance envelope around the human-access vector.
+
+The governed agent should not be the sole authority over policy, permission expansion, authoritative audit, external shutdown/isolation, consequential-action authorization, or recovery mechanisms.
+
+ECHO treats inspectability, traceability, external interruptibility, authority visibility, human/institutional reviewability, durable auditability, and recoverability as governance-access properties.
+
+Primary document: docs/GOVERNANCE_ACCESSIBILITY.md.
+
 ## Interfaces
 
 - Static GitHub Pages site.
@@ -73,6 +85,7 @@ Important dimensions can be designated as non-compensable deployment gates.
 
 - ACI framework;
 - AI Accessibility Evaluation Matrix;
+- Governance Accessibility framework for advanced agents and potential AGI;
 - benchmark and TEVV proposals;
 - schema cards;
 - research publications;
@@ -118,4 +131,4 @@ ECHO is the place where accessibility becomes a formal AI-governance and evaluat
 
 ## Status
 
-Active core branch. ACI framework v0.1 and AI Accessibility Evaluation Matrix v0.1 published September 22, 2026.
+Active core branch. ACI v0.2, Evaluation Matrix v0.2, and Governance Accessibility v0.1 published September 22, 2026.
