@@ -1,7 +1,7 @@
 # Accessibility-Constrained Intelligence (ACI)
 
 **ECHO · Small Systems Lab**  
-**Version:** 0.1  
+**Version:** 0.2  
 **Published:** September 22, 2026
 
 ## Core doctrine
@@ -147,6 +147,20 @@ Accessibility requirements can enter at:
 - appeal;
 - traceable decision records.
 
+## Governance Accessibility: advanced agents and potential AGI
+
+ACI also extends beyond the accessibility of human interaction. For advanced autonomous agents and potential AGI systems, ECHO defines a second systems requirement:
+
+> **Oversight that an intelligent system can make inaccessible is not oversight.**
+
+This is called **Governance Accessibility**.
+
+The original accessibility vector remains focused on whether affected people can access and exercise agency over AI interaction. Governance Accessibility is a separate system-level envelope asking whether authorized oversight can inspect, trace, interrupt, constrain, review, and recover the intelligence itself.
+
+For high-consequence autonomy, ECHO proposes that authoritative policy, permission, audit, shutdown/isolation, and recovery mechanisms sit in an **independent governance control plane** that the governed agent cannot unilaterally disable, rewrite, or expand.
+
+See [Governance Accessibility for Advanced Agents and AGI](GOVERNANCE_ACCESSIBILITY.md).
+
 ## Governance implications
 
 ### Explainability becomes relational
@@ -177,6 +191,8 @@ ECHO will test, rather than assume, the following:
 4. Accessible explanations can improve error detection and human oversight beyond disability-specific contexts.
 5. Agent interruption and override should be evaluated as both safety and accessibility properties.
 6. Accessibility failures can serve as early indicators of broader governance failures.
+7. An autonomous system whose oversight mechanisms can be made inaccessible by the governed agent has a structural governance failure.
+8. Separating agent intelligence from policy, authorization, authoritative audit, and external interruption can make consequential autonomy more governable.
 
 ## Relationship to standards
 
@@ -192,4 +208,4 @@ References:
 
 ## Research output
 
-ACI is the core theoretical framework of ECHO. The companion [AI Accessibility Evaluation Matrix](EVALUATION_MATRIX.md) begins translating the thesis into testable gates.
+ACI is the core theoretical framework of ECHO. The companion [AI Accessibility Evaluation Matrix](EVALUATION_MATRIX.md) begins translating the thesis into testable gates. [Governance Accessibility for Advanced Agents and AGI](GOVERNANCE_ACCESSIBILITY.md) extends the framework into the architecture of advanced autonomous systems.
