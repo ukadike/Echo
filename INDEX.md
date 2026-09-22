@@ -17,6 +17,7 @@ Sitemap of the ECHO repository, Small Systems Lab's AI-governance branch.
 - docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md — ACI framework v0.2. Defines **“Access is a condition of correctness”** as a model/system governance thesis; introduces accessibility as a threshold/gate across training, evaluation, agents, deployment, and redress.
 - docs/EVALUATION_MATRIX.md — AI Accessibility Evaluation Matrix v0.2. Defines eight human-access dimensions, a 0–4 scoring model, non-compensable gates, Governance Accessibility system gates, test cases, and evidence-record requirements.
 - docs/GOVERNANCE_ACCESSIBILITY.md — Governance Accessibility v0.1. Extends ECHO to advanced agents and potential AGI with external control-plane requirements for inspectability, traceability, interruption, authority boundaries, durable audit, review, and recovery.
+- docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md — ECHO Case Study 001. Applies ACI and Governance Accessibility to the September 18, 2026 AI Evaluator Forum open letter covered by ABC News Live; includes Stuart Russell among the notable signatories and identifies both strengths and missing governance gates.
 - `docs/REPO_AUDIT.md` — earlier repository/accessibility audit retained for provenance.
 
 ## Evaluation vector
