@@ -149,6 +149,7 @@ ECHO's research question is narrower and more structural:
 - [Governance Accessibility for Advanced Agents and AGI](docs/GOVERNANCE_ACCESSIBILITY.md)
 - [Case Study 001 — Embedded Independent Evaluators](docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md)
 - [Case Study 001 — Expert Record and Public Writings](docs/CASE_STUDY_001_EXPERT_RECORD.md)
+- [Case Study 002 — What AI Industry Leaders Say About Governance](docs/CASE_STUDY_002_INDUSTRY_LEADERS_GOVERNANCE.md)
 - [Schema Card](SCHEMA_CARD.md)
 - [Small Systems Lab Method](SSL-METHOD.md)
 - [Repository Index](INDEX.md)
