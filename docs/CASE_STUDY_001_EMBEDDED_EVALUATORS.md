@@ -111,13 +111,21 @@ The missing or underspecified ECHO gates are:
 
 This distinction matters because an evaluator can have excellent access and still lack the authority or architecture needed to prevent, interrupt or contain a harmful autonomous action.
 
-## Stuart Russell as a useful ECHO signal
+## Stuart Russell and Joy Buolamwini as important ECHO signals
 
-Stuart Russell's participation matters to this case because his work has long focused on control, alignment and the problem of designing AI systems whose objectives remain compatible with human interests.
+Stuart Russell's participation matters because his prior public work focuses on the AI control problem, third-party testing, regulation, and externally meaningful shutdown mechanisms.
 
-For ECHO, however, the case is not based on any one signatory's authority. The letter is useful because its concrete governance conditions can be independently tested.
+Joy Buolamwini's participation is equally important for a different reason: the Algorithmic Justice League has spent years developing a public-interest accountability framework around algorithmic audits, affirmative consent, meaningful transparency, continuous oversight, affected communities, and access to redress. AJL's earlier *Who Audits the Auditors?* research makes the 2026 embedded-evaluator letter part of a longer accountability lineage rather than a new idea appearing from nowhere.
 
-ECHO therefore treats the letter as **evidence of an emerging governance direction**, not as proof that the problem is solved.
+For ECHO, however, the case is not based on any signatory's authority. Their earlier work is evidence that can be compared against the collective letter and against ECHO's own testable governance requirements.
+
+## Expert record and prior public writings
+
+This case study now has a separate [Expert Record and Public Writings](CASE_STUDY_001_EXPERT_RECORD.md).
+
+The companion record distinguishes the **single collective 2026 letter** from the signatories' own independently published work. It includes a dedicated section on **Dr. Joy Buolamwini and the Algorithmic Justice League**, including AJL's *Who Audits the Auditors?* research and Buolamwini's written testimony to the U.S. Commission on Civil Rights.
+
+This distinction is important: ECHO should not attribute the wording of the collective letter to an individual signatory beyond their act of signing it.
 
 ## Human-accessibility layer still missing
 
@@ -153,4 +161,12 @@ And oversight that the intelligent system can make inaccessible is not oversight
 ## Sources
 
 - AI Evaluator Forum, “Minimum Conditions for Embedding Evaluators,” published September 18, 2026: https://aievaluatorforum.org/initiatives/embedded-evaluation-letter
-- ABC News Live, “Experts pen open letter calling for independent evaluators for AI companies,” September 18, 2026.
+- ABC News Live, “Experts pen open letter calling for independent evaluators for AI companies,” September 18, 2026: https://abcnews.com/video/136564915/
+- Algorithmic Justice League, “Who Audits the Auditors?”: https://www.ajl.org/auditors
+- Algorithmic Justice League, mission and principles: https://www.ajl.org/about
+- Joy Buolamwini, written testimony to the U.S. Commission on Civil Rights, March 8, 2024: https://www.ajl.org/civil-rights-commission-written-testimony
+- Stuart Russell, U.S. Senate AI regulation testimony: https://humancompatible.ai/blog/2023/09/11/ai-regulation-stuart-russells-opening-statement-at-u-s-senate-hearing/
+- Arvind Narayanan, Princeton profile and agent-evaluation research: https://www.cs.princeton.edu/~arvindn/
+- Yejin Choi, Stanford profile: https://engineering.stanford.edu/people/yejin-choi
+- Geoffrey Hinton, University of Toronto AI safety mission: https://www.utoronto.ca/news/what-happens-when-ai-smarter-us-gift-supports-geoffrey-hinton-s-global-ai-safety-mission
+- [ECHO Expert Record and Public Writings](CASE_STUDY_001_EXPERT_RECORD.md)
