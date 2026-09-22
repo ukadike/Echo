@@ -153,6 +153,19 @@ ECHO's research question is narrower and more structural:
 - [Small Systems Lab Method](SSL-METHOD.md)
 - [Repository Index](INDEX.md)
 
+## Canonical case-study principles
+
+ECHO Case Study 001 is part of the branch's canonical research record.
+
+The case study locks in the following propositions:
+
+- independent evaluation is necessary but not sufficient without enforceable governance access;
+- accessibility includes consent, notice, contestability, redress, and participation by affected communities;
+- evaluator access must be paired with durable audit, authority visibility, interruption, privilege boundaries, and recovery;
+- Joy Buolamwini and the Algorithmic Justice League provide a key accountability lineage for ECHO through work on affirmative consent, meaningful transparency, algorithmic auditing, continuous oversight, participation by affected communities, and redress;
+- Stuart Russell's control and shutdown framing provides a complementary lineage for external interruption and human retention of governing authority;
+- ECHO must distinguish collective letters from each signatory's independently attributable public work.
+
 ## Status
 
 Active Small Systems Lab research branch. Initial governance thesis and evaluation framework published September 22, 2026.
