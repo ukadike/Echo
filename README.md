@@ -147,6 +147,7 @@ ECHO's research question is narrower and more structural:
 - [Accessibility-Constrained Intelligence](docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md)
 - [AI Accessibility Evaluation Matrix](docs/EVALUATION_MATRIX.md)
 - [Governance Accessibility for Advanced Agents and AGI](docs/GOVERNANCE_ACCESSIBILITY.md)
+- [Case Study 001 — Embedded Independent Evaluators](docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md)
 - [Schema Card](SCHEMA_CARD.md)
 - [Small Systems Lab Method](SSL-METHOD.md)
 - [Repository Index](INDEX.md)
