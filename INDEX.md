@@ -1,50 +1,55 @@
-# Index — Echo
+# Index — ECHO
 
-Sitemap of the Echo repository. This is a single-page static site; there is no multi-page
-structure beyond what's listed here.
+Sitemap of the ECHO repository, Small Systems Lab's AI-governance branch.
 
-## Root
+## Core public files
 
-- `README.md` — project overview, SSL Method inside Echo, Starter Lessons list, Accessibility
-  Baseline, Status.
-- `SSL-METHOD.md` — the general Small Systems Lab Method (Operations of Care, Rule-Based
-  Intelligence, Ancient Geometry as Interface Logic, Accessibility as System Architecture,
-  Public Knowledge and Returnability). Linked from `index.html`.
-- `index.html` — the live homepage (GitHub Pages entry point). Sections, in order:
-  1. Header — title and one-line description.
-  2. "What this is" — Echo overview.
-  3. "SSL method inside Echo" — three cards (Operations of Care, Rule-Based Intelligence,
-     Ancient Geometry) + link to `SSL-METHOD.md`.
-  4. "Starter lessons" — list of 7 prototype lesson titles (titles only, no content yet).
-  5. "Accessibility baseline" — 7-item list.
-  6. "Get involved" — link to GitHub Issues.
-  7. "Status" — GitHub Pages starter package, part of Small Systems Lab.
-  8. Footer — link to Small Systems Lab hub, copyright.
-- `site.css` — layout glue (max-width, grid, base element rules). Not the token/component
-  system — see `variables.css`.
-- `variables.css` — locked "Omoluabi Visual Language System" CSS custom properties and
-  components, shared across Small Systems Lab, Earth Sensors Lab, and Omoluabi. Canon; not
-  modified here.
-- `.nojekyll` — disables GitHub Pages' Jekyll processing (required since the site is plain
-  static HTML/CSS).
-- `.gitattributes` — text/LF normalization only.
+- `README.md` — ECHO mission, core doctrine, Accessibility-Constrained Intelligence (ACI), accessibility vector, lifecycle insertion points, governance thesis, research program, and standards context.
+- `SCHEMA_CARD.md` — machine- and human-readable project orientation: purpose, evaluation vector, interfaces, inputs/outputs, governance, accessibility commitments, and relationships to other SSL branches.
+- `SSL-METHOD.md` — the general Small Systems Lab Method.
+- `index.html` — public GitHub Pages landing page.
+- `site.css` — page layout.
+- `variables.css` — shared SSL visual-language tokens/components.
+- `.nojekyll` — serves the site as plain static HTML/CSS.
 
-## Documentation added in this restoration pass
+## Research documents
 
-- `docs/REPO_AUDIT.md` — full repository audit (structure, links, accessibility, gaps,
-  recommendations).
-- `SCHEMA_CARD.md` — project schema card (purpose, audience, core concepts, interfaces,
-  dependencies, related repos, accessibility, future notes).
-- `INDEX.md` — this file.
+- `docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md` — ACI framework v0.1. Defines **“Access is a condition of correctness”** as a model/system governance thesis; introduces accessibility as a threshold/gate across training, evaluation, agents, deployment, and redress.
+- `docs/EVALUATION_MATRIX.md` — AI Accessibility Evaluation Matrix v0.1. Defines eight evaluation dimensions, a 0–4 scoring model, non-compensable gates, test cases, and evidence-record requirements.
+- `docs/REPO_AUDIT.md` — earlier repository/accessibility audit retained for provenance.
 
-## External links referenced by the site
+## Evaluation vector
 
-- `https://ukadike.github.io/Small-Systems-Lab/` — Small Systems Lab hub (footer).
-- `https://github.com/ukadike/Echo/issues` — contribution/issue intake (Get involved section).
-- `https://github.com/ukadike` — author GitHub profile (footer).
+```text
+A = (P, O, U, R, C, L, M, G)
+```
 
-## Not yet present
+- P — Perceivable
+- O — Operable
+- U — Understandable
+- R — Robust
+- C — Cognitive access
+- L — Linguistic access
+- M — Modal equivalence
+- G — Agency
 
-- No lesson content pages (the 7 Starter Lessons are titles only — see `docs/REPO_AUDIT.md`).
-- No images/assets directory.
-- No LICENSE or CONTRIBUTING files (flagged as "Needs Kemi review" in `docs/REPO_AUDIT.md`).
+## External references
+
+- W3C WCAG 2.2 — https://www.w3.org/TR/WCAG22/
+- NIST AI Risk Management Framework — https://www.nist.gov/itl/ai-risk-management-framework
+- NIST TEVV-Athlon — https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems
+- Small Systems Lab — https://ukadike.github.io/Small-Systems-Lab/
+- ECHO issue intake — https://github.com/ukadike/Echo/issues
+
+## Current research status
+
+Active core branch. ACI framework v0.1 and AI Accessibility Evaluation Matrix v0.1 published September 22, 2026.
+
+## Next implementation targets
+
+- machine-readable evaluation schema;
+- reusable schema card for individual AI evaluations;
+- benchmark fixtures for text, image, audio, multimodal, and agent tasks;
+- agent interruption / override test harness;
+- accessible public case-study pages;
+- contribution and research-protocol documentation.
