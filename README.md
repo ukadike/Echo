@@ -148,6 +148,7 @@ ECHO's research question is narrower and more structural:
 - [AI Accessibility Evaluation Matrix](docs/EVALUATION_MATRIX.md)
 - [Governance Accessibility for Advanced Agents and AGI](docs/GOVERNANCE_ACCESSIBILITY.md)
 - [Case Study 001 — Embedded Independent Evaluators](docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md)
+- [Case Study 001 — Expert Record and Public Writings](docs/CASE_STUDY_001_EXPERT_RECORD.md)
 - [Schema Card](SCHEMA_CARD.md)
 - [Small Systems Lab Method](SSL-METHOD.md)
 - [Repository Index](INDEX.md)
