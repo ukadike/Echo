@@ -19,7 +19,11 @@ Sitemap of the ECHO repository, Small Systems Lab's AI-governance branch.
 - docs/GOVERNANCE_ACCESSIBILITY.md — Governance Accessibility v0.1. Extends ECHO to advanced agents and potential AGI with external control-plane requirements for inspectability, traceability, interruption, authority boundaries, durable audit, review, and recovery.
 - docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md — ECHO Case Study 001. Applies ACI and Governance Accessibility to the September 18, 2026 AI Evaluator Forum open letter covered by ABC News Live; identifies both strengths and missing governance gates.
 - docs/CASE_STUDY_001_EXPERT_RECORD.md — Signatory and public-writings companion. Separates the collective letter from individual experts' independently verifiable work, with a dedicated Joy Buolamwini / Algorithmic Justice League section and the wider signatory record.
-- docs/CASE_STUDY_002_INDUSTRY_LEADERS_GOVERNANCE.md — Industry-leader and insider evidence record covering Jacob Coxon, Dario Amodei, Sam Altman/OpenAI, Mark Zuckerberg, Mustafa Suleyman, Jensen Huang, and the emerging split over self-governance, mandatory rules, pacing, evaluation, and control.
+- docs/CASE_STUDY_002_INDUSTRY_LEADERS_GOVERNANCE.md — Deep research edition: executive claims, formal governance frameworks, independent evaluation evidence, agent-control architecture, ECHO hypotheses, limitations, and the observation–control gap.
+- docs/CASE_STUDY_002_METHODS_CODEBOOK.md — Research design, evidence hierarchy, coding rules, governance-accessibility dimensions, limitations, and falsifiability.
+- docs/CASE_STUDY_002_SOURCE_LEDGER.md — Primary and independent source ledger for reproducibility.
+- case-study-002/index.html — Visual public case-study page with four accessible diagrams.
+- assets/case-study-002/ — Evidence hierarchy, governance-control-plane diagram, AISI incident visualization, and public-framework coverage matrix.
 - `docs/REPO_AUDIT.md` — earlier repository/accessibility audit retained for provenance.
 
 ## Evaluation vector
