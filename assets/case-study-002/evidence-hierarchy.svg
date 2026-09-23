@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">ECHO evidence hierarchy for frontier AI governance</title>
+<desc id="desc">Five stacked levels move from executive statements at the base to independently enforceable and continuously verified controls at the top. Confidence increases as evidence becomes less dependent on the governed company.</desc>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111}
+.h{font-size:34px;font-weight:700}.s{font-size:20px}.l{font-size:22px;font-weight:700}.n{font-size:18px}
+.box{fill:#fff;stroke:#111;stroke-width:3}.shade1{fill:#f3f3f3}.shade2{fill:#e5e5e5}.shade3{fill:#d6d6d6}.shade4{fill:#c5c5c5}
+</style>
+<rect width="1200" height="760" fill="#fff"/>
+<text x="60" y="70" class="h">ECHO evidence hierarchy</text>
+<text x="60" y="105" class="s">A safety claim becomes stronger as access, independence, and enforcement increase.</text>
+
+<rect x="110" y="570" width="980" height="95" rx="12" class="box shade1"/>
+<text x="145" y="610" class="l">1 · Executive statement</text>
+<text x="145" y="640" class="n">What a leader says should happen. Useful for declared intent; weakest evidence of implementation.</text>
+
+<rect x="170" y="455" width="860" height="95" rx="12" class="box shade1"/>
+<text x="205" y="495" class="l">2 · Formal company policy</text>
+<text x="205" y="525" class="n">Published thresholds, processes, safety cases, reporting duties, or deployment rules.</text>
+
+<rect x="230" y="340" width="740" height="95" rx="12" class="box shade2"/>
+<text x="265" y="380" class="l">3 · Implemented technical control</text>
+<text x="265" y="410" class="n">Identity, least privilege, sandboxing, monitoring, action gates, logging, isolation, recovery.</text>
+
+<rect x="290" y="225" width="620" height="95" rx="12" class="box shade3"/>
+<text x="325" y="265" class="l">4 · Independent evaluation</text>
+<text x="325" y="295" class="n">Third parties inspect systems and internal evidence with editorial independence.</text>
+
+<rect x="350" y="110" width="500" height="95" rx="12" class="box shade4"/>
+<text x="385" y="150" class="l">5 · Independent enforcement / continuous assurance</text>
+<text x="385" y="180" class="n">Outside authority can verify continuously and trigger binding intervention.</text>
+
+<line x1="1030" y1="620" x2="1030" y2="170" stroke="#111" stroke-width="4"/>
+<polygon points="1030,135 1016,170 1044,170" fill="#111"/>
+<text x="1060" y="395" class="n" transform="rotate(-90 1060 395)">Increasing governance assurance</text>
+<text x="60" y="720" class="n">ECHO research instrument · Not a safety ranking of companies.</text>
+</svg>
