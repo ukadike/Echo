@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="820" viewBox="0 0 1300 820" role="img" aria-labelledby="title desc">
+<title id="title">ECHO governance accessibility control plane</title>
+<desc id="desc">Authorized humans, boards, regulators, affected communities and independent evaluators connect to an external governance control plane. The control plane sets identity, permissions, policy gates, audit, interruption and recovery. The AI agent proposes actions; tools execute only after deterministic checks. An independent audit ledger records the chain.</desc>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:34px;font-weight:700}.s{font-size:19px}.l{font-size:22px;font-weight:700}.n{font-size:17px}
+.box{fill:#fff;stroke:#111;stroke-width:3}.soft{fill:#f1f1f1}.dark{fill:#d9d9d9}.dash{fill:#fff;stroke:#111;stroke-width:3;stroke-dasharray:10 8}
+</style>
+<rect width="1300" height="820" fill="#fff"/>
+<text x="55" y="62" class="h">Governance Accessibility: the agent does not own the controls that govern it</text>
+<text x="55" y="96" class="s">ECHO reference architecture for consequential autonomous systems</text>
+
+<rect x="55" y="145" width="1190" height="105" rx="12" class="box soft"/>
+<text x="90" y="183" class="l">Authorized governance actors</text>
+<text x="90" y="217" class="n">Affected people · accountable operators · independent evaluators · board oversight · regulators / lawful authorities</text>
+
+<line x1="650" y1="250" x2="650" y2="300" stroke="#111" stroke-width="4"/>
+<polygon points="650,315 638,292 662,292" fill="#111"/>
+
+<rect x="145" y="315" width="1010" height="205" rx="14" class="box dark"/>
+<text x="180" y="355" class="l">Independent governance control plane</text>
+<text x="180" y="392" class="n">Identity &amp; owner</text>
+<text x="410" y="392" class="n">Least privilege</text>
+<text x="650" y="392" class="n">Action authorization</text>
+<text x="930" y="392" class="n">External pause / revoke</text>
+<text x="180" y="438" class="n">Policy enforcement</text>
+<text x="410" y="438" class="n">Monitoring</text>
+<text x="650" y="438" class="n">Audit persistence</text>
+<text x="930" y="438" class="n">Containment / recovery</text>
+<text x="180" y="485" class="n">Rule: the governed agent cannot unilaterally disable, rewrite, or expand these controls.</text>
+
+<line x1="650" y1="520" x2="650" y2="570" stroke="#111" stroke-width="4"/>
+<polygon points="650,585 638,562 662,562" fill="#111"/>
+
+<rect x="400" y="585" width="500" height="95" rx="12" class="box"/>
+<text x="435" y="625" class="l">AI agent / agent collective</text>
+<text x="435" y="655" class="n">May reason and propose actions; does not self-authorize high-impact effects.</text>
+
+<line x1="650" y1="680" x2="650" y2="720" stroke="#111" stroke-width="4"/>
+<polygon points="650,735 638,712 662,712" fill="#111"/>
+
+<rect x="370" y="735" width="560" height="60" rx="10" class="box soft"/>
+<text x="420" y="772" class="l">Tools · networks · code · data · other agents · physical systems</text>
+
+<rect x="970" y="575" width="275" height="125" rx="12" class="dash"/>
+<text x="1000" y="615" class="l">Independent audit ledger</text>
+<text x="1000" y="648" class="n">Request → policy → action</text>
+<text x="1000" y="678" class="n">→ result → intervention</text>
+<line x1="900" y1="630" x2="970" y2="630" stroke="#111" stroke-width="3"/>
+<text x="55" y="805" class="n">ECHO principle: oversight that an intelligent system can make inaccessible is not oversight.</text>
+</svg>
