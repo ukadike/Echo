@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Public frontier AI governance framework coverage matrix</title>
+<desc id="desc">A document-coding matrix comparing OpenAI, Anthropic, Meta, and Google DeepMind across seven governance mechanisms. Explicit means the mechanism is clearly documented in the reviewed public framework; conditional or partial means present with limits; not located means the research review did not find an explicit commitment in the reviewed public documents. This is not a safety score.</desc>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:31px;font-weight:700}.s{font-size:17px}.row{font-size:20px;font-weight:700}.c{font-size:16px;text-anchor:middle}
+.grid{stroke:#111;stroke-width:1.5}.yes{fill:#d0d0d0}.partial{fill:#ededed}.unknown{fill:#fff}
+</style>
+<rect width="1600" height="900" fill="#fff"/>
+<text x="55" y="58" class="h">Public-framework coverage: documented governance mechanisms</text>
+<text x="55" y="90" class="s">ECHO coding of reviewed public documents, September 23, 2026 · Not a safety ranking or claim about undisclosed internal controls</text>
+
+<text x="250" y="155" class="row">Organization</text>
+<text x="520" y="145" class="c">Capability</text><text x="520" y="166" class="c">thresholds</text>
+<text x="680" y="145" class="c">Deployment</text><text x="680" y="166" class="c">gate / safety case</text>
+<text x="840" y="145" class="c">Independent</text><text x="840" y="166" class="c">assessment access</text>
+<text x="1000" y="145" class="c">Runtime</text><text x="1000" y="166" class="c">monitor / controls</text>
+<text x="1160" y="145" class="c">Public risk /</text><text x="1160" y="166" class="c">incident reporting</text>
+<text x="1320" y="145" class="c">External halt</text><text x="1320" y="166" class="c">authority</text>
+<text x="1480" y="145" class="c">Independent durable</text><text x="1480" y="166" class="c">audit ledger</text>
+
+<text x="100" y="250" class="row">OpenAI</text>
+<text x="100" y="365" class="row">Anthropic</text>
+<text x="100" y="480" class="row">Meta</text>
+<text x="100" y="595" class="row">Google DeepMind</text>
+
+<!-- row 1 -->
+<rect x="450" y="205" width="140" height="70" class="yes grid"/><text x="520" y="247" class="c">Explicit</text>
+<rect x="610" y="205" width="140" height="70" class="yes grid"/><text x="680" y="247" class="c">Explicit</text>
+<rect x="770" y="205" width="140" height="70" class="yes grid"/><text x="840" y="247" class="c">Explicit</text>
+<rect x="930" y="205" width="140" height="70" class="yes grid"/><text x="1000" y="247" class="c">Explicit</text>
+<rect x="1090" y="205" width="140" height="70" class="yes grid"/><text x="1160" y="247" class="c">Explicit</text>
+<rect x="1250" y="205" width="140" height="70" class="unknown grid"/><text x="1320" y="238" class="c">Not located</text><text x="1320" y="258" class="c">as external power</text>
+<rect x="1410" y="205" width="140" height="70" class="unknown grid"/><text x="1480" y="238" class="c">Not located</text><text x="1480" y="258" class="c">as independent</text>
+
+<!-- row 2 -->
+<rect x="450" y="320" width="140" height="70" class="yes grid"/><text x="520" y="362" class="c">Explicit</text>
+<rect x="610" y="320" width="140" height="70" class="yes grid"/><text x="680" y="362" class="c">Explicit</text>
+<rect x="770" y="320" width="140" height="70" class="yes grid"/><text x="840" y="362" class="c">Explicit</text>
+<rect x="930" y="320" width="140" height="70" class="yes grid"/><text x="1000" y="362" class="c">Explicit</text>
+<rect x="1090" y="320" width="140" height="70" class="yes grid"/><text x="1160" y="362" class="c">Explicit</text>
+<rect x="1250" y="320" width="140" height="70" class="partial grid"/><text x="1320" y="353" class="c">Internal pause</text><text x="1320" y="373" class="c">authority documented</text>
+<rect x="1410" y="320" width="140" height="70" class="partial grid"/><text x="1480" y="353" class="c">Central logs;</text><text x="1480" y="373" class="c">independence unclear</text>
+
+<!-- row 3 -->
+<rect x="450" y="435" width="140" height="70" class="yes grid"/><text x="520" y="477" class="c">Explicit</text>
+<rect x="610" y="435" width="140" height="70" class="yes grid"/><text x="680" y="477" class="c">Explicit</text>
+<rect x="770" y="435" width="140" height="70" class="partial grid"/><text x="840" y="468" class="c">Independent eval</text><text x="840" y="488" class="c">support / participation</text>
+<rect x="930" y="435" width="140" height="70" class="yes grid"/><text x="1000" y="477" class="c">Explicit</text>
+<rect x="1090" y="435" width="140" height="70" class="yes grid"/><text x="1160" y="477" class="c">Explicit</text>
+<rect x="1250" y="435" width="140" height="70" class="unknown grid"/><text x="1320" y="468" class="c">Not located</text><text x="1320" y="488" class="c">as external power</text>
+<rect x="1410" y="435" width="140" height="70" class="unknown grid"/><text x="1480" y="468" class="c">Not located</text><text x="1480" y="488" class="c">as independent</text>
+
+<!-- row 4 -->
+<rect x="450" y="550" width="140" height="70" class="yes grid"/><text x="520" y="592" class="c">Explicit</text>
+<rect x="610" y="550" width="140" height="70" class="yes grid"/><text x="680" y="592" class="c">Explicit</text>
+<rect x="770" y="550" width="140" height="70" class="partial grid"/><text x="840" y="583" class="c">External parties</text><text x="840" y="603" class="c">where appropriate</text>
+<rect x="930" y="550" width="140" height="70" class="partial grid"/><text x="1000" y="583" class="c">Mitigations</text><text x="1000" y="603" class="c">publicly described</text>
+<rect x="1090" y="550" width="140" height="70" class="partial grid"/><text x="1160" y="583" class="c">Framework /</text><text x="1160" y="603" class="c">model reporting</text>
+<rect x="1250" y="550" width="140" height="70" class="unknown grid"/><text x="1320" y="583" class="c">Not located</text><text x="1320" y="603" class="c">as external power</text>
+<rect x="1410" y="550" width="140" height="70" class="unknown grid"/><text x="1480" y="583" class="c">Not located</text><text x="1480" y="603" class="c">as independent</text>
+
+<rect x="80" y="680" width="40" height="30" class="yes grid"/><text x="135" y="702" class="s">Explicit in reviewed public documents</text>
+<rect x="430" y="680" width="40" height="30" class="partial grid"/><text x="485" y="702" class="s">Conditional / partial / indirect evidence</text>
+<rect x="850" y="680" width="40" height="30" class="unknown grid"/><text x="905" y="702" class="s">Not located in reviewed public documents</text>
+
+<text x="80" y="755" class="s">Method note: “Not located” is not evidence that a control does not exist internally. It identifies a public-governance observability gap.</text>
+<text x="80" y="790" class="s">Sources: OpenAI Frontier Governance / third-party assessment principles; Anthropic RSP 3.4; Meta Advanced AI Scaling Framework;</text>
+<text x="80" y="818" class="s">Google DeepMind Frontier Safety Framework 3.1; METR Frontier Risk Report. Full codebook in the companion methods appendix.</text>
+</svg>
