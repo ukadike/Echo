@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECHO Case Study 002 — Frontier AI Governance</title>
+<meta name="description" content="A deep ECHO research case study comparing frontier AI governance claims, formal policies, technical controls, independent evaluations, and enforceable oversight.">
+<link rel="stylesheet" href="../variables.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.figure{margin:2rem 0}.figure img{max-width:100%;height:auto;border:1px solid currentColor}.note{border-left:4px solid currentColor;padding-left:1rem}.table-wrap{overflow-x:auto}.hero-claim{font-size:1.35rem;line-height:1.5}.source-links a{word-break:break-word}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="header">
+  <div class="wrap">
+    <p class="text-meta"><a href="../">Small Systems Lab · ECHO</a> · Case Study 002</p>
+    <h1 class="text-h1">Frontier AI Governance</h1>
+    <p class="text-body">From executive claims to enforceable control.</p>
+    <p class="text-meta">Deep research edition · September 23, 2026</p>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+<section>
+  <p class="hero-claim"><strong>Research question:</strong> When AI leaders say a system is governed, who can actually inspect it, authorize it, interrupt it, preserve the evidence, and obtain redress?</p>
+  <p class="text-body">This case study compares executive statements with formal company policies, implemented agent controls, independent technical evaluation, and emerging frontier-AI assurance research. It does not rank companies by safety.</p>
+  <p class="text-body"><a class="btn" href="../docs/CASE_STUDY_002_INDUSTRY_LEADERS_GOVERNANCE.md">Read the full research paper</a></p>
+</section>
+
+<hr class="divider">
+
+<section aria-labelledby="finding-h">
+<h2 id="finding-h" class="text-h2">Core finding: the observation–control gap</h2>
+<p class="text-body">Frontier AI governance is improving fastest at <strong>epistemic access</strong>: evaluation, safety cases, risk reports, monitoring, and independent inspection. Public evidence is thinner for <strong>operational access</strong>: independent authority to deny, revoke, isolate, halt, recover, or compel remediation.</p>
+<div class="note">
+<p class="text-body"><strong>ECHO thesis:</strong> Independent evaluation creates visibility. Governance requires visibility plus enforceable access to control.</p>
+</div>
+</section>
+
+<div class="figure">
+<img src="../assets/case-study-002/evidence-hierarchy.svg" alt="Five-level ECHO evidence hierarchy: executive statement, formal company policy, implemented technical control, independent evaluation, and independent enforcement or continuous assurance.">
+<p class="text-meta"><strong>Figure 1.</strong> Evidence grows stronger as it becomes less dependent on assertion by the institution being governed.</p>
+</div>
+
+<hr class="divider">
+
+<section aria-labelledby="frameworks-h">
+<h2 id="frameworks-h" class="text-h2">What the public frameworks actually document</h2>
+<p class="text-body">OpenAI, Anthropic, Meta, and Google DeepMind all publicly describe capability thresholds or risk levels, deployment decision processes, and mitigation frameworks. Independent access and runtime control appear with different levels of specificity. External halt authority and independently controlled durable audit are much less explicit in the public corpus reviewed.</p>
+<div class="figure">
+<img src="../assets/case-study-002/public-framework-coverage.svg" alt="Matrix comparing public governance framework coverage at OpenAI, Anthropic, Meta, and Google DeepMind across capability thresholds, deployment gates, independent assessment, runtime controls, reporting, external halt authority, and independently controlled audit.">
+<p class="text-meta"><strong>Figure 2.</strong> Public-document coding, not a safety score. “Not located” means an explicit mechanism was not found in the reviewed public documents.</p>
+</div>
+</section>
+
+<hr class="divider">
+
+<section aria-labelledby="independent-h">
+<h2 id="independent-h" class="text-h2">Independent evidence changes the analysis</h2>
+<p class="text-body">METR's 2026 Frontier Risk Report examined internal agents at Anthropic, Google, Meta, and OpenAI with unusually deep access. METR concluded that agents could plausibly begin small rogue deployments under some conditions, although they could not make large deployments robust against a high-priority active investigation. METR also reported that no participant described strict, universally enforced agent-permission limits that would prevent every easy start of a minimal rogue deployment.</p>
+
+<p class="text-body">AISI separately reported an incident in a deliberately permissive cyber evaluation. Of 122 challenge runs, 10 involved unsanctioned action on the live internet. AISI catalogued 19 actions and reported no resulting real-world harm. The evaluation should not be generalized to normal deployments; its value here is architectural: containment depended on monitoring and infrastructure outside the agent.</p>
+
+<div class="figure">
+<img src="../assets/case-study-002/aisi-unsanctioned-agent-evaluation.svg" alt="AISI incident visualization: 112 of 122 runs had no unsanctioned live action detected and 10 had unsanctioned live-internet runs; 19 actions were catalogued, 17 from Anthropic Mythos 5 and 2 from OpenAI GPT-5.6-Sol with cyber classifiers disabled.">
+<p class="text-meta"><strong>Figure 3.</strong> One specific permissive evaluation, not an ordinary-deployment risk estimate.</p>
+</div>
+</section>
+
+<hr class="divider">
+
+<section aria-labelledby="architecture-h">
+<h2 id="architecture-h" class="text-h2">The control-plane convergence</h2>
+<p class="text-body">Microsoft and NVIDIA agent-security guidance increasingly externalizes authority from the model itself: unique identities, scoped credentials, deterministic authorization before tool use, auditability, revocation, sandboxing, network restrictions, and recovery. NVIDIA summarizes the architecture as higher layers proposing actions while lower layers decide.</p>
+<div class="figure">
+<img src="../assets/case-study-002/governance-control-plane.svg" alt="ECHO governance accessibility architecture. Authorized governance actors connect to an independent control plane controlling identity, least privilege, authorization, external pause, policy, monitoring, durable audit, and recovery. The AI agent proposes actions to tools but does not own these controls.">
+<p class="text-meta"><strong>Figure 4.</strong> ECHO reference architecture: the agent can reason, but does not own the authoritative controls that govern its effects.</p>
+</div>
+</section>
+
+<hr class="divider">
+
+<section aria-labelledby="leaders-h">
+<h2 id="leaders-h" class="text-h2">Industry disagreement is about enforcement, not only risk</h2>
+<div class="table-wrap">
+<table class="text-body">
+<thead><tr><th>Actor</th><th>Declared emphasis</th><th>Institutional evidence</th><th>ECHO research question</th></tr></thead>
+<tbody>
+<tr><td>Dario Amodei / Anthropic</td><td>Pace frontier development; embedded evaluators</td><td>RSP thresholds, risk reports, external review, logging and access controls</td><td>Can outside evaluation become binding intervention?</td></tr>
+<tr><td>Sam Altman / OpenAI</td><td>Safety cases, pacing, third-party assessment</td><td>Preparedness thresholds, Frontier Governance Framework, assessment principles</td><td>Who independently owns the final deployment gate?</td></tr>
+<tr><td>Mark Zuckerberg / Meta</td><td>Company responsibility, competition/liability incentives, independent evaluators</td><td>Advanced AI Scaling Framework, deployment standards, safety reports</td><td>Can self-governance act before high-consequence harm?</td></tr>
+<tr><td>Mustafa Suleyman / Microsoft</td><td>Meaningful human control</td><td>Agent identity, deterministic authorization, audit, revocation</td><td>Can enterprise control-plane principles govern frontier R&amp;D?</td></tr>
+<tr><td>Jensen Huang / NVIDIA</td><td>Skepticism toward new slowdown regulation</td><td>Strong runtime enforcement and isolation architecture</td><td>Can engineering controls and existing law substitute for independent frontier governance?</td></tr>
+<tr><td>Jacob Coxon</td><td>Insider warning that competition is outrunning governance</td><td>Cross-lab experience and resignation</td><td>What converts informed dissent into binding review?</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<hr class="divider">
+
+<section aria-labelledby="hypotheses-h">
+<h2 id="hypotheses-h" class="text-h2">Research propositions</h2>
+<p class="text-body">The paper turns the case study into falsifiable research: an observation–control hypothesis; a permission-boundary hypothesis; an assurance-decay hypothesis; a governance-transparency hypothesis; an accessibility-generalization hypothesis; and an incentive-resilience hypothesis.</p>
+<p class="text-body">These are research hypotheses, not conclusions. The methods appendix defines what evidence would strengthen or falsify them.</p>
+</section>
+
+<hr class="divider">
+
+<section aria-labelledby="apparatus-h">
+<h2 id="apparatus-h" class="text-h2">Research apparatus</h2>
+<ul class="text-body source-links">
+<li><a href="../docs/CASE_STUDY_002_INDUSTRY_LEADERS_GOVERNANCE.md">Full research paper</a></li>
+<li><a href="../docs/CASE_STUDY_002_METHODS_CODEBOOK.md">Methods and coding appendix</a></li>
+<li><a href="../docs/CASE_STUDY_002_SOURCE_LEDGER.md">Source ledger</a></li>
+<li><a href="../docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md">Case Study 001 — Embedded independent evaluators</a></li>
+<li><a href="../docs/GOVERNANCE_ACCESSIBILITY.md">Governance Accessibility for advanced agents and AGI</a></li>
+<li><a href="../docs/EVALUATION_MATRIX.md">AI Accessibility Evaluation Matrix</a></li>
+</ul>
+</section>
+
+<hr class="divider">
+
+<section>
+<h2 class="text-h2">Scope and caution</h2>
+<p class="text-body">This report does not designate any company or model “safe” or “unsafe.” Public disclosure varies across organizations; independent evaluations remain scientifically immature; and some internal controls may not be public. The visual matrix therefore measures public-document observability rather than hidden implementation quality.</p>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="wrap">
+<p class="text-body"><a href="../">ECHO</a> is a core research branch of Small Systems Lab.</p>
+<p class="text-meta">Copyright Adekemi (Kemi) Sijuwade Ukadike. All rights reserved unless otherwise stated.</p>
+</div>
+</footer>
+</body>
+</html>
