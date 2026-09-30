@@ -117,6 +117,8 @@ An agent may request a safe shutdown, but it should not be the sole authority ov
 ECHO will develop:
 
 - an **AI Accessibility Evaluation Matrix**;
+- an **ECHO Government AI Audit Protocol** for public-sector procurement, deployment, differential-condition testing, contestability, audit evidence, and redress;
+- **Government AI Audit Schema Cards** linking systems, audits, failures, consequences, remediation, and retesting;
 - accessibility gates for model and agent evaluation;
 - benchmark tasks across sensory, motor, cognitive, linguistic, and situational access;
 - accessible explanation and uncertainty patterns;
@@ -147,6 +149,8 @@ ECHO's research question is narrower and more structural:
 - [Accessibility-Constrained Intelligence](docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md)
 - [AI Accessibility Evaluation Matrix](docs/EVALUATION_MATRIX.md)
 - [Governance Accessibility for Advanced Agents and AGI](docs/GOVERNANCE_ACCESSIBILITY.md)
+- [Government AI Audit Protocol v0.1](docs/GOVERNMENT_AI_AUDIT_PROTOCOL.md)
+- [Government AI Audit Schema Cards v0.1](docs/GOVERNMENT_AI_AUDIT_SCHEMA_CARDS.md)
 - [Case Study 001 — Embedded Independent Evaluators](docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md)
 - [Case Study 001 — Expert Record and Public Writings](docs/CASE_STUDY_001_EXPERT_RECORD.md)
 - [Case Study 002 — Frontier AI Governance: From Executive Claims to Enforceable Control](docs/CASE_STUDY_002_INDUSTRY_LEADERS_GOVERNANCE.md)
@@ -172,6 +176,6 @@ The case study locks in the following propositions:
 
 ## Status
 
-Active Small Systems Lab research branch. Initial governance thesis and evaluation framework published September 22, 2026.
+Active Small Systems Lab research branch. Initial governance thesis and evaluation framework published September 22, 2026. Government AI Audit Protocol v0.1 and companion schema cards published September 30, 2026.
 
 Copyright © Adekemi (Kemi) Sijuwade Ukadike. All rights reserved unless otherwise stated.
