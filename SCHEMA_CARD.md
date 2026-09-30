@@ -88,6 +88,8 @@ Primary document: docs/GOVERNANCE_ACCESSIBILITY.md.
 - Governance Accessibility framework for advanced agents and potential AGI;
 - benchmark and TEVV proposals;
 - schema cards;
+- Government AI Audit Protocol for public-sector AI assurance;
+- structured Government AI System, Audit, Failure, and Remediation/Redress cards;
 - research publications;
 - public curriculum;
 - prototype test harnesses;
@@ -114,6 +116,15 @@ ECHO's own publishing and prototypes should use:
 - multimodal equivalents;
 - explicit privacy and upload warnings.
 
+## Government AI audit
+
+ECHO applies ACI to government AI through a dedicated public-sector audit protocol. The audit traces accessibility and system behavior through inference, administrative action, human consequence, contestability, evidence, remediation, and redress. Companion schema cards make the record reproducible and machine-readable.
+
+Primary documents:
+
+- docs/GOVERNMENT_AI_AUDIT_PROTOCOL.md
+- docs/GOVERNMENT_AI_AUDIT_SCHEMA_CARDS.md
+
 ## Reference frameworks
 
 - W3C WCAG 2.2 — https://www.w3.org/TR/WCAG22/
@@ -131,4 +142,4 @@ ECHO is the place where accessibility becomes a formal AI-governance and evaluat
 
 ## Status
 
-Active core branch. ACI v0.2, Evaluation Matrix v0.2, and Governance Accessibility v0.1 published September 22, 2026.
+Active core branch. ACI v0.2, Evaluation Matrix v0.2, and Governance Accessibility v0.1 published September 22, 2026. Government AI Audit Protocol v0.1 and schema cards published September 30, 2026.
