@@ -17,6 +17,8 @@ Sitemap of the ECHO repository, Small Systems Lab's AI-governance branch.
 - docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md — ACI framework v0.2. Defines **“Access is a condition of correctness”** as a model/system governance thesis; introduces accessibility as a threshold/gate across training, evaluation, agents, deployment, and redress.
 - docs/EVALUATION_MATRIX.md — AI Accessibility Evaluation Matrix v0.2. Defines eight human-access dimensions, a 0–4 scoring model, non-compensable gates, Governance Accessibility system gates, test cases, and evidence-record requirements.
 - docs/GOVERNANCE_ACCESSIBILITY.md — Governance Accessibility v0.1. Extends ECHO to advanced agents and potential AGI with external control-plane requirements for inspectability, traceability, interruption, authority boundaries, durable audit, review, and recovery.
+- docs/GOVERNMENT_AI_AUDIT_PROTOCOL.md — Government AI Audit Protocol v0.1. Applies ACI to public-sector procurement, deployment, differential-condition testing, administrative consequence, human review, contestability, evidence, monitoring, and redress.
+- docs/GOVERNMENT_AI_AUDIT_SCHEMA_CARDS.md — Structured System, Audit, Failure, and Remediation/Redress cards for reproducible government AI assurance records.
 - docs/CASE_STUDY_001_EMBEDDED_EVALUATORS.md — ECHO Case Study 001. Applies ACI and Governance Accessibility to the September 18, 2026 AI Evaluator Forum open letter covered by ABC News Live; identifies both strengths and missing governance gates.
 - docs/CASE_STUDY_001_EXPERT_RECORD.md — Signatory and public-writings companion. Separates the collective letter from individual experts' independently verifiable work, with a dedicated Joy Buolamwini / Algorithmic Justice League section and the wider signatory record.
 - docs/CASE_STUDY_002_INDUSTRY_LEADERS_GOVERNANCE.md — Deep research edition: executive claims, formal governance frameworks, independent evaluation evidence, agent-control architecture, ECHO hypotheses, limitations, and the observation–control gap.
@@ -51,10 +53,11 @@ A = (P, O, U, R, C, L, M, G)
 
 ## Current research status
 
-Active core branch. ACI v0.2, AI Accessibility Evaluation Matrix v0.2, and Governance Accessibility v0.1 published September 22, 2026.
+Active core branch. ACI v0.2, AI Accessibility Evaluation Matrix v0.2, and Governance Accessibility v0.1 published September 22, 2026. Government AI Audit Protocol v0.1 and schema cards published September 30, 2026.
 
 ## Next implementation targets
 
+- machine-readable implementation of the Government AI Audit Schema Cards;
 - machine-readable evaluation schema;
 - reusable schema card for individual AI evaluations;
 - benchmark fixtures for text, image, audio, multimodal, and agent tasks;
