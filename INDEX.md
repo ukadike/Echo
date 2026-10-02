@@ -14,6 +14,7 @@ Sitemap of the ECHO repository, Small Systems Lab's AI-governance branch.
 
 ## Research documents
 
+- community-ai-access/index.html — public ECHO page for the Community AI access-state model, participation objective, and governance thresholds.
 - from-the-street-outward/index.html — public reading page for the ECHO essay “From the Street Outward.”
 - docs/FROM_THE_STREET_OUTWARD.md — archival/source version of the essay.
 - docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md — ACI framework v0.2. Defines **“Access is a condition of correctness”** as a model/system governance thesis; introduces accessibility as a threshold/gate across training, evaluation, agents, deployment, and redress.
