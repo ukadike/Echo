@@ -144,6 +144,10 @@ ECHO's research question is narrower and more structural:
 
 > **What changes when accessibility becomes a minimum condition for AI correctness and deployment rather than an accommodation added after intelligence has already been defined?**
 
+## Featured essay
+
+- [From the Street Outward: Accessibility, Community AI, and the Right to Build](docs/FROM_THE_STREET_OUTWARD.md)
+
 ## Documents
 
 - [Accessibility-Constrained Intelligence](docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md)
