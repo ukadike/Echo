@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Community AI: Recognize Access — ECHO</title>
+<meta name="description" content="Community AI as locally governed intelligence that responds to changing access needs and environmental conditions.">
+<link rel="stylesheet" href="../variables.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.article-wrap{max-width:50rem}.article-wrap p,.article-wrap li{font-size:1.08rem}.dek{font-size:1.25rem;line-height:1.6;max-width:44rem}.pullquote{border-top:var(--border-thick);border-bottom:var(--border-thick);padding:var(--space-xl) 0;margin:var(--space-2xl) 0;font-family:var(--font-display);font-size:1.45rem;line-height:1.45;font-weight:700}.equation{background:var(--color-white);border:var(--border-thin);padding:var(--space-lg);margin:var(--space-lg) 0;font-family:var(--font-mono);font-size:1rem;line-height:1.7;overflow-x:auto}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to article</a>
+<header class="header"><div class="wrap"><p class="text-meta">Small Systems Lab · ECHO · Community AI</p><p class="text-body"><a href="../">ECHO home</a></p></div></header>
+
+<main id="main" class="wrap article-wrap">
+<article>
+<header>
+<p class="text-meta">Published October 1, 2026</p>
+<h1 class="text-h1">Community AI: Recognize Access</h1>
+<p class="dek"><strong>Human variation, local governance, and participation as the optimization target</strong></p>
+</header>
+
+<p>When I walk beside Fort Greene Park, I see many different ways of moving through the same place.</p>
+
+<p>A wheelchair. A motorized chair. A walker. A stroller. Someone moving slowly. Someone running. Someone carrying bags. Someone stopping to rest.</p>
+
+<p>We are all sharing the same environment.</p>
+
+<div class="pullquote">What if AI governance began by asking what access conditions a community needs supported right now?</div>
+
+<p>Community AI starts from that question.</p>
+
+<p>It does not need to categorize people. It can work from community-declared needs, accessibility reports, requested accommodations, route feedback, service requests, and public environmental data.</p>
+
+<p>The goal is not classification. The goal is participation.</p>
+
+<h2 class="text-h2">Access as a changing state</h2>
+
+<p>Let the local access state at time <em>t</em> be:</p>
+
+<div class="equation" aria-label="Access state vector">A(t) = [m, p, r, s, c, l, e, g]</div>
+
+<ul>
+<li><strong>m</strong> — mobility and path access</li>
+<li><strong>p</strong> — pace and timing access</li>
+<li><strong>r</strong> — reach and physical interaction</li>
+<li><strong>s</strong> — sensory and perceptual access</li>
+<li><strong>c</strong> — cognitive-load access</li>
+<li><strong>l</strong> — language and communication access</li>
+<li><strong>e</strong> — environmental access</li>
+<li><strong>g</strong> — agency, consent, and control</li>
+</ul>
+
+<p>These values describe access conditions in context. They are not permanent labels attached to individuals.</p>
+
+<p>The current access state can be estimated from declared community needs and environmental conditions:</p>
+
+<div class="equation" aria-label="Access state probability">P(A(t) | D(t), E(t))</div>
+
+<p><strong>D(t)</strong> represents deliberately shared community access requirements.</p>
+<p><strong>E(t)</strong> represents environmental conditions such as slope, curb condition, crossing duration, lighting, weather, seating, route closures, and transit status.</p>
+
+<h2 class="text-h2">The Community AI objective</h2>
+
+<div class="equation" aria-label="Community AI participation objective">x*(t) = arg max<sub>x</sub> E[ Participation(x | A(t), E(t)) ]</div>
+
+<p>In plain language:</p>
+
+<div class="pullquote">Choose the action most likely to increase meaningful participation under the current access and environmental conditions.</div>
+
+<p>But participation is not enough by itself. The system must satisfy minimum governance thresholds:</p>
+
+<div class="equation" aria-label="Community AI governance thresholds">
+Access(x) ≥ τ<sub>A</sub><br>
+Privacy(x) ≥ τ<sub>P</sub><br>
+Agency(x) ≥ τ<sub>G</sub>
+</div>
+
+<p>Community AI should not improve one dimension by sacrificing another. Better service cannot justify poor privacy. Efficiency cannot justify reduced agency.</p>
+
+<h2 class="text-h2">Why the average is not enough</h2>
+
+<p>If most people can use a curb and some cannot, the curb does not become accessible because the average person can cross it.</p>
+
+<p>Community AI therefore should not collapse everyone into one typical user.</p>
+
+<div class="equation" aria-label="High quantile access condition">K<sub>j</sub>(t) = Q<sub>q</sub>{A<sub>1j</sub>(t), A<sub>2j</sub>(t), …, A<sub>nj</sub>(t)}</div>
+
+<p>Using a high quantile instead of only a mean is one way to preserve meaningful access requirements that would otherwise disappear inside an average.</p>
+
+<div class="pullquote">Do not average meaningful access requirements out of existence.</div>
+
+<h2 class="text-h2">What this means in a neighborhood</h2>
+
+<p>A navigation system can distinguish the shortest route from the most usable route.</p>
+
+<p>A crossing can be evaluated against community-established timing requirements.</p>
+
+<p>A neighborhood service can identify repeated reports about the same curb, entrance, crossing, or transit stop and turn those recurring failures into evidence for infrastructure repair.</p>
+
+<p>A local assistant can provide the same information in requested languages, modalities, levels of complexity, and interaction speeds.</p>
+
+<p>The intelligence is not about deciding what kind of person someone is.</p>
+
+<div class="pullquote">It is about determining whether the environment is meeting the access requirements of the people sharing it.</div>
+
+<h2 class="text-h2">Community AI is governance</h2>
+
+<p>The community needs authority over what information is collected, what is retained, what the system is allowed to do, how uncertainty is represented, and how people challenge or override it.</p>
+
+<p>Community AI should favor minimum necessary data, deliberately shared information, local processing where appropriate, transparent rules, accessible explanation, human override, and public accountability.</p>
+
+<p>The community should govern the intelligence.</p>
+
+<h2 class="text-h2">From the street outward</h2>
+
+<div class="equation" aria-label="Conventional AI development direction">compute → model → product → user</div>
+
+<p>Community AI reverses the direction:</p>
+
+<div class="equation" aria-label="Community AI development direction">person → street → community → need → system → infrastructure</div>
+
+<div class="pullquote">Build from the street outward.</div>
+
+<p>At ECHO, the proposition remains:</p>
+
+<div class="pullquote">Access is a condition of correctness.</div>
+
+<p>Community AI adds another:</p>
+
+<div class="pullquote">Participation is the optimization target.</div>
+
+<p><strong>The community becomes an interface.</strong></p>
+</article>
+
+<hr class="divider">
+<p class="text-meta"><a href="../">Return to ECHO</a></p>
+</main>
+
+<footer class="site-footer"><div class="wrap"><p class="text-body">ECHO is part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a>.</p><p class="text-meta">Copyright Adekemi (Kemi) Sijuwade Ukadike. All rights reserved unless otherwise stated.</p></div></footer>
+</body>
+</html>
