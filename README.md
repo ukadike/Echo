@@ -146,7 +146,7 @@ ECHO's research question is narrower and more structural:
 
 ## Featured essay
 
-- [From the Street Outward: Accessibility, Community AI, and the Right to Build](docs/FROM_THE_STREET_OUTWARD.md)
+- [From the Street Outward: Accessibility, Community AI, and the Right to Build](from-the-street-outward/)
 
 ## Documents
 
