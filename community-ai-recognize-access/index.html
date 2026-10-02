@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Don't Recognize Disability. Recognize Access. — ECHO</title>
+<meta name="description" content="ECHO proposes Community AI: locally governed intelligence that perceives changing access conditions without turning accessibility into identity classification or surveillance.">
+<link rel="stylesheet" href="../variables.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+  .article-wrap { max-width: 50rem; }
+  .article-wrap p, .article-wrap li { font-size: 1.08rem; }
+  .dek { font-size: 1.25rem; line-height: 1.6; max-width: 44rem; }
+  .pullquote {
+    border-top: var(--border-thick);
+    border-bottom: var(--border-thick);
+    padding: var(--space-xl) 0;
+    margin: var(--space-2xl) 0;
+    font-family: var(--font-display);
+    font-size: 1.45rem;
+    line-height: 1.45;
+    font-weight: 700;
+  }
+  .equation {
+    background: var(--color-white);
+    border: var(--border-thin);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    line-height: 1.7;
+    overflow-x: auto;
+  }
+  .equation-label { font-family: var(--font-display); font-weight: 700; }
+  .note {
+    border-left: 4px solid var(--color-ink);
+    padding-left: var(--space-lg);
+    margin: var(--space-xl) 0;
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to article</a>
+
+<header class="header">
+  <div class="wrap">
+    <p class="text-meta">Small Systems Lab · ECHO · Community AI</p>
+    <p class="text-body"><a href="../">ECHO home</a></p>
+  </div>
+</header>
+
+<main id="main" class="wrap article-wrap">
+<article>
+<header>
+  <p class="text-meta">Published October 1, 2026</p>
+  <h1 class="text-h1">Don't Recognize Disability. Recognize Access.</h1>
+  <p class="dek"><strong>Community AI and the Intelligence of Human Variation</strong></p>
+</header>
+
+<p>When I walk beside Fort Greene Park, I see a street full of different ways of moving through the world.</p>
+
+<p>A person using a wheelchair. Someone in a motorized chair. Me with my walker. A mother pushing a stroller. An older person walking slowly. A runner moving quickly. Someone carrying bags. Someone limping. Someone stopping to rest.</p>
+
+<p>We are not separate populations. We are sharing the same environment.</p>
+
+<p>That observation changes the way I think about AI governance.</p>
+
+<p>Computer vision already knows how to estimate movement, pose, gesture, direction, speed, and relationships between bodies and objects. Years ago, I used facial recognition as one multimodal input for a thumb piano. That was basic machine learning: the body became part of the interface.</p>
+
+<div class="pullquote">What if the environment could perceive changing access conditions without trying to identify or classify the people experiencing them?</div>
+
+<p>The system should not ask: <strong>What kind of person is this?</strong></p>
+
+<p>It should ask: <strong>What access conditions are present here right now?</strong></p>
+
+<p>A wheelchair is not an identity. A walker is not an identity. A stroller is not an identity. Moving slowly, carrying groceries, recovering from surgery, navigating poor lighting, processing unfamiliar language, needing more time, or needing more space are all access conditions.</p>
+
+<p><strong>Human access is variable, contextual, and dynamic.</strong></p>
+
+<h2 class="text-h2">An access-state model</h2>
+
+<p>Let the local access state at time <em>t</em> be:</p>
+
+<div class="equation" aria-label="Access state vector">
+A(t) = [m, p, r, v, c, l, e, g]
+</div>
+
+<ul>
+  <li><strong>m</strong> — mobility and path support</li>
+  <li><strong>p</strong> — pace and timing support</li>
+  <li><strong>r</strong> — reach and physical interaction support</li>
+  <li><strong>v</strong> — perceptual and sensory support</li>
+  <li><strong>c</strong> — cognitive-load support</li>
+  <li><strong>l</strong> — language and communication support</li>
+  <li><strong>e</strong> — environmental support</li>
+  <li><strong>g</strong> — agency, consent, and control</li>
+</ul>
+
+<p>Each value represents a probability or degree of need, not a diagnosis or permanent label.</p>
+
+<p>A simplified inference model is:</p>
+
+<div class="equation" aria-label="Probability of access state given signals and environment">
+P(A(t) | S(t), E(t))
+</div>
+
+<p><strong>S(t)</strong> represents minimal, local, non-identifying signals. <strong>E(t)</strong> represents the environment: curb height, slope, crowding, light, noise, traffic timing, weather, available seating, route conditions, and similar factors.</p>
+
+<p>Community AI then chooses an action that improves participation:</p>
+
+<div class="equation" aria-label="Community AI participation optimization">
+x*(t) = arg max<sub>x</sub> E[ Participation(x | A(t), E(t)) ]
+</div>
+
+<p class="equation-label">Subject to:</p>
+
+<div class="equation" aria-label="Community AI governance constraints">
+Access(x) ≥ τ<sub>A</sub><br>
+Privacy(x) ≥ τ<sub>P</sub><br>
+Agency(x) ≥ τ<sub>G</sub><br>
+Identity inference = 0, by default
+</div>
+
+<div class="note">
+<p><strong>The optimization target is participation, not classification.</strong> The system does not need to decide who is disabled. It needs to determine whether the shared environment is currently usable.</p>
+</div>
+
+<h2 class="text-h2">Why the average is not enough</h2>
+
+<p>A community system should not average everybody into one “typical user.” If nine people can use a curb and one person cannot, the curb does not become accessible because the average person can cross it.</p>
+
+<p>Community AI therefore needs a way to preserve less-common access requirements instead of averaging them away.</p>
+
+<div class="equation" aria-label="High quantile community access condition">
+C<sub>j</sub>(t) = Q<sub>q</sub>{A<sub>1j</sub>(t), A<sub>2j</sub>(t), …, A<sub>nj</sub>(t)}
+</div>
+
+<p>Here, <strong>Q<sub>q</sub></strong> represents a high quantile rather than a mean.</p>
+
+<div class="pullquote">Design for the access conditions that matter, even when they are not the majority condition.</div>
+
+<h2 class="text-h2">What this could mean on a street</h2>
+
+<p>A crossing system could notice that people currently using the intersection require more crossing time and extend it.</p>
+
+<p>A navigation system could understand that the shortest route is not necessarily the most usable route.</p>
+
+<p>A community robot could understand when its own position blocks a wheelchair, walker, stroller, or delivery cart.</p>
+
+<p>A neighborhood system could notice repeated difficulty at the same curb, entrance, slope, or transit stop and convert recurring access failures into evidence for infrastructure repair.</p>
+
+<div class="pullquote">The intelligence does not need to conclude: “This person is disabled.” It can conclude: “This path is currently failing some of the people trying to use it.”</div>
+
+<h2 class="text-h2">The governance principle</h2>
+
+<p>The system must not turn accessibility into surveillance.</p>
+
+<p><strong>Recognition does not equal permission.</strong></p>
+
+<p>Community AI should therefore prefer local inference over centralized surveillance; anonymous or ephemeral signals over persistent identity; minimum necessary sensing; visible community rules; opt-in personalization where possible; uncertainty rather than false certainty; human challenge and override; and community control over what is sensed, retained, and acted upon.</p>
+
+<p>The community should govern the sensing.</p>
+
+<p>The AI should adapt downward toward the people using the environment rather than extracting information upward into systems they do not control.</p>
+
+<h2 class="text-h2">From accessibility feature to intelligence model</h2>
+
+<p>ECHO asks: <strong>Did the AI learn that variation in human access is normal?</strong></p>
+
+<p>That question moves accessibility upstream. It changes training data, computer vision, robotics, navigation, public infrastructure, and what an AI system is optimized to notice.</p>
+
+<p>At Small Systems Lab, the proposition is:</p>
+
+<div class="pullquote">Access is a condition of correctness.</div>
+
+<p>Community AI extends that proposition into place:</p>
+
+<div class="pullquote">A community system is not intelligent if the people sharing that environment cannot meaningfully participate in it.</div>
+
+<p><strong>Don't recognize disability. Recognize access.</strong></p>
+<p><strong>The community becomes an interface.</strong></p>
+<p><strong>Build from the street outward.</strong></p>
+
+</article>
+
+<hr class="divider">
+<p class="text-meta"><a href="../">Return to ECHO</a> · <a href="../docs/COMMUNITY_AI_RECOGNIZE_ACCESS.md">Research/source version</a></p>
+</main>
+
+<footer class="site-footer">
+<div class="wrap">
+<p class="text-body">ECHO is part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a>.</p>
+<p class="text-meta">Copyright Adekemi (Kemi) Sijuwade Ukadike. All rights reserved unless otherwise stated.</p>
+</div>
+</footer>
+</body>
+</html>
