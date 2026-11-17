@@ -9,7 +9,7 @@
 
 ECHO began as a Small Systems Lab branch for AI governance, accessibility, and human agency. Its central claim is that access is a condition of correctness: an AI system cannot be considered fully successful if the people affected by it cannot understand, use, question, interrupt, or contest it.
 
-A conversation about ECHO's branches raised another connected possibility. AI governance is not only about what institutions and developers owe the public. It is also about whether people have a fair chance to understand and use the systems that are already entering everyday life.
+In a meeting with Daniel Sullivan, I described ECHO as both an AI-governance branch and an effort to help people—especially older adults who may feel hesitant about or unfamiliar with AI—build confidence and practical skill. Daniel responded that this access gap could itself be a major focus. His reaction stayed with me because AI governance is not only about what institutions and developers owe the public. It is also about whether people have a fair chance to understand and use the systems that are already entering everyday life.
 
 Older adults came up as one group who may be asked to adapt quickly to unfamiliar devices and AI tools, while receiving too little patient, practical support. This is not a claim that older adults are all unfamiliar with technology. People of every age vary in access, confidence, language, literacy, disability, and prior experience. The design question is how to make a useful path into AI available without treating any group as deficient.
 
