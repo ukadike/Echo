@@ -151,6 +151,7 @@ ECHO's research question is narrower and more structural:
 
 ## Documents
 
+- [A Thinking Framework for AI Growth, Public Access, and an Accessibility AI Model](docs/AI_ACCESS_GROWTH_AND_ACCESSIBILITY_MODEL_FRAMEWORK.md)
 - [ECHO and the AI Access Gap: An Exploratory Research Note](docs/ECHO_AI_ACCESS_FRONTIER_SYSTEM.md)
 - [Accessibility-Constrained Intelligence](docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md)
 - [AI Accessibility Evaluation Matrix](docs/EVALUATION_MATRIX.md)
