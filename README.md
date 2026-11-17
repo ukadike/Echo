@@ -126,6 +126,7 @@ ECHO will develop:
 - multimodal-equivalence tests;
 - public-interest case studies;
 - curriculum for AI literacy and governance;
+- co-designed AI-literacy and public-learning research that measures access, agency, and skill transfer;
 - schema cards that make evaluation assumptions visible;
 - prototype code and test harnesses;
 - external-control-plane patterns for advanced agents;
@@ -150,6 +151,7 @@ ECHO's research question is narrower and more structural:
 
 ## Documents
 
+- [ECHO and the AI Access Gap: An Exploratory Research Note](docs/ECHO_AI_ACCESS_FRONTIER_SYSTEM.md)
 - [Accessibility-Constrained Intelligence](docs/ACCESSIBILITY_CONSTRAINED_INTELLIGENCE.md)
 - [AI Accessibility Evaluation Matrix](docs/EVALUATION_MATRIX.md)
 - [Governance Accessibility for Advanced Agents and AGI](docs/GOVERNANCE_ACCESSIBILITY.md)
